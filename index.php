@@ -65,6 +65,7 @@ if ($_SESSION['letras_acertadas'] == $_SESSION['palabra']) {
 <head>
     <meta charset="UTF-8">
     <title>Ahorcado</title>
+<<<<<<< HEAD
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -96,6 +97,7 @@ if ($_SESSION['letras_acertadas'] == $_SESSION['palabra']) {
     <button type="submit" name="reiniciar">Jugar de nuevo</button>
 </form>
 <p>Letras usadas: <?php echo implode(', ', $_SESSION['letras_usadas']); ?></p>
+
 </body>
 </html>
 

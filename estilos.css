@@ -1,0 +1,99 @@
+/* Estilo general */
+body {
+    background-image: url('ESPEJO.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    color: #333; /* Texto con contraste moderado */
+}
+
+/* Contenedor principal */
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semi-transparente */
+    border-radius: 10px;
+    padding: 30px;
+    width: 80%;
+    max-width: 700px;
+    margin: 5% auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Encabezado */
+h1 {
+    -webkit-text-stroke: 0.3px darkcyan; /* Trazo más sutil */
+    color: darkcyan; /* Color contrastado para el título */
+    font-family: "Roboto", sans-serif;
+    font-weight: 300; /* Peso ligero */
+    font-size: 2.5rem; /* Tamaño adecuado para destacar */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Párrafos de información */
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: center;
+    color: #555; /* Texto de color gris suave */
+}
+
+/* Formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+button {
+    background-color: darkcyan;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #006666;
+}
+
+/* Estilo para las letras usadas */
+p.letras-usadas {
+    font-size: 1rem;
+    color: #888;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    input[type="text"] {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+}
